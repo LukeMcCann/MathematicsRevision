@@ -7,9 +7,9 @@ clc, clearvars
 % 1 Row x 10 Columns
 x = 1:10
 
-% We can then transpose x 
+% We can then transpose x
 % this will flip the Vector
-% to a vertical Vector 
+% to a vertical Vector
 % 10 Rows x 1 Column
 x'
 
@@ -23,7 +23,7 @@ y = linspace(0,100,101)
 % We can manually define vectors
 z = [12 50 -8 -100]
 
-% Again, we can flip this to 
+% Again, we can flip this to
 % a vertical vector
 z'
 
@@ -32,8 +32,14 @@ z'
 % with either spaces or commas
 f = [1,2,3,4]
 
-% Matlab does not support 
+% Matlab does not support
 % defining multidimensional vectors
 % in this manner
 multi = [[1,2,3,4],[5]]
 
+% Remember, arrays and vectors are
+% along a single dimension
+x = 1:5
+
+% Matrices are along two dimensions
+y = [1,2;3,4]
