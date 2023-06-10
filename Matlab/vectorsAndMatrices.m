@@ -43,3 +43,23 @@ x = 1:5
 
 % Matrices are along two dimensions
 y = [1,2;3,4]
+
+
+% There are functions to generate entire
+% matrices of one and zero values
+clc, clearvars;
+A = ones(4)
+B = zeros(2)
+A= ones(3, 1)
+B = zeros(1, 3)
+
+% We can generate an identity matrix
+C = eye(3)
+
+% We can also include additional arguments
+% when creating a vector
+P = 1:1:10
+
+% This basically says:
+% start at 1, jump by 1 value
+% end at 10
