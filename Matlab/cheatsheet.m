@@ -6,6 +6,11 @@
 % As such, everything in matlab
 % is stored in matrices
 
+% semicolons are different to
+% what you may be used to.
+% In MatLab they are called suppression
+% they are used to suppress output.
+
 % We can create a variable as such:
 a = 5;
 
@@ -21,6 +26,9 @@ a + b
 
 % We can define strings
 hello = "hello";
+
+% We can also define chars
+t = 't';
 
 % We can define strings
 % with multiple columns and
@@ -47,3 +55,27 @@ whos
 % We have access to other functions
 % and operations
 sqrt(5);
+
+% We can clear the console with
+% clc;
+
+% And clear Variables with
+% clearvars
+
+% Commas can be used to write
+% multiple commands on one line
+you = "Malic", me = "Luke"
+
+
+% And of course we have mathematical operators
+a = 10;
+b = 2;
+
+a * b
+a / b
+a + b
+a - b
+a^b
+
+% Matlab supports compound expressions
+sqrt(a * b)
