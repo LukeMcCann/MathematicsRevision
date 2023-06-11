@@ -43,3 +43,64 @@ And opposing this when we subtract a positive from a negative the result will al
 If it helps you can think of everything as addition and insert brackets in your mind: 4 + (-4) = 4 - 4
 
 You can also think of addition as the + sign is telling you to move in the direction indicated by the preceding number, so if we have: 1 + (+3) the addition operator is saying to follow the direction of 3 which is a positive and thus we move to the right, if we have 1 + (-3) we would move to the left. Conversely the - sign tels us to move in the opposite direction to that which is indicated: -2 - (-3) = -2 + 3
+
+# Multiplication
+
+Previously we covered addition and subtraction, but what of multiplication? in this case we have three possibilities, we can multiply to positive numbers, two negative numbers, or one positive and one negative number.
+
+When we multiply two positive numbers the result will always be positive, remember that multiplying is really just consecutive addition.
+3 * 4 = 3 + 3 + 3 + 3 = 12
+
+This means the multiplication of two positive numbers will always be moving to the rightmost direction of our number line.
+
+When we multiply two negative numbers the result will once again always be positive:
+(-3) * (-4) =
+
+I have not shown the consecutive addition for the above to avoid confusion. As we are dealing with two negatives the addition can be thought of as more of a subtraction as we are adding a negative.
+
+When we multiply a positive number by a negative the result will always be a negative: 3 * (-4) = -3 + (-3) + (-3) + (-3) -12
+
+
+To Summise:
+	Positive * Positive = Positive
+	Negative * Negative = Positive
+	Positive * Negative = Negative
+	Negative * Positive = Negative
+
+An easy way to remember this is if the signs are the same the product with be positive, else it will be negative. Of course, 0 is not itself a signed number and multiplying by 0 is always 0. The order of numbers does not matter in multiplication.
+
+Note that this logic does not hold up with more than two numbers, for instance, if we have (-2)(-3)(-4) then every two - signs we have will cancel out and become a positive. We can draw the conclusion from this that if we have an even number of - signs the result will be positive, if we have an odd number of negative signs the result will be negative.
+
+Even  - : +
+Odd   - : -
+
+Looking at our example:
+
+(-2)(-3)(-4) becomes (+2)(+3)(-4) this results in an odd number of negative signs which means we can expect the product to be negative: -24
+
+# Division
+
+Much like multiplication when we divide signed numbers we have three possibilities:
+
+   1. We divide two positive numbers
+   2. We divide two negative numbers
+   3. We divide one positive and one negative number
+
+Much like multiplication, when we divide two positive numbers the result will always be positive:
+    6 / 2 = 3
+		10 / 4 = 2.5
+
+Similarly when we divide two negative numbers the result will always be positive:
+   (-2) / (-3) = 4
+
+When we divide a positive by a negative or a negative by a positive the result will always be a negative.
+
+You will notice these rules follow the same pattern as multiplication.
+
+To Summise:
+	Positive / Positive = Positive
+	Negative / Negative = Positive
+	Positive / Negative = Negative
+	Negative / Positive = Negative
+
+Once again we derive that if the signs are the same the result will be positive, if the signs are different they will be negative. We cannot divide by 0, but if we divide 0 itself by any number the result will always be 0.
