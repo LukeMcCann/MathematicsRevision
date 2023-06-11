@@ -106,3 +106,28 @@ To Summise:
 Once again we derive that if the signs are the same the result will be positive, if the signs are different they will be negative. We cannot divide by 0, but if we divide 0 itself by any number the result will always be 0.
 
 If we think of these results as fractions we can simplify by factoring out the negative sign to the front of the fractions, this will not change the value of the calculation as a/(-b) and -a/b are equivalent fractions. If we have both a negative numerator and denominator we can rewrite the fraction using 1 as the value for each side, since multiplying by 1 does not change the value of a number, thus (-6)/(-3) can also be written as (-1)/(-1)*(6/3) both of these expressions then simplify to 6/3 which should be evident by the fact we are multiplying by -1 which we know flips the sign to the opposite, however, since we have two negative signs we know these cancel out into two positives.
+
+Just like multiplication when we have more than two numbers involved we can instead look to whether the signs are an even or odd number.
+
+Even  - : +
+Odd   - : -
+
+
+# Absolute Value
+
+Absolute value is familiar to any JS programmer. The Math.abs()
+util gives us the absolute value of any number. Having used this you may remember it is the function which removes the sign from a negative number and "flips" it to a positive. In reality, this is not what is happening. When we run Math.abs() we are actually attaining the absolute value. Going back to our number line we can define the absolute value as the values distance form 0, this means that for any positive number the absolute value is the same value as the positive number itself, and for any negative number it will be the opposite of that negative number as -5 is still a distance of 5 from 0 despite it's direction:
+
+| Number | Distance From 0 |
+| --- | --- |
+| 2 | 2 |
+| -2 | 2 |
+| 4 | 4 |
+| -5 | 5 |
+
+
+We denote the absolute value of a number in mathematical notation as such: |-3|
+
+We are no limited to taking the absolute value of just a number, we can actually take the absolute value of any mathematical expression. When we enclose any expression within absolute value bars we MUST first evaluate the expression within the value bars before taking the absolute value.
+
+| -3 - 4 | = 7
