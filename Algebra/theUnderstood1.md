@@ -24,11 +24,11 @@ We could even extend this rule to coefficients, denominators, and exponents. Thi
 
 x = 1x^1
     -----
-		  1
+	  1
 
 7 = 1(7)^1
     -------
-		   1
+	  1
 
 So, this might seem like crazy theoretical nonesense, where would this actually apply?
 

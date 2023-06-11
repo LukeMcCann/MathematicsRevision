@@ -104,3 +104,5 @@ To Summise:
 	Negative / Positive = Negative
 
 Once again we derive that if the signs are the same the result will be positive, if the signs are different they will be negative. We cannot divide by 0, but if we divide 0 itself by any number the result will always be 0.
+
+If we think of these results as fractions we can simplify by factoring out the negative sign to the front of the fractions, this will not change the value of the calculation as a/(-b) and -a/b are equivalent fractions. If we have both a negative numerator and denominator we can rewrite the fraction using 1 as the value for each side, since multiplying by 1 does not change the value of a number, thus (-6)/(-3) can also be written as (-1)/(-1)*(6/3) both of these expressions then simplify to 6/3 which should be evident by the fact we are multiplying by -1 which we know flips the sign to the opposite.
