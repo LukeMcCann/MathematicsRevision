@@ -32,3 +32,11 @@ console.log(oppositeInteger(-20));
 
 // Here we can clearly see that we are calculating the opposite of our number from the root of zero.
 // This showcases the distance on the number line between zero and each of these integers.
+
+// When we say opposite numbers in mathematics we usually mean the number we start with * -1
+// a reflection of this in function form:
+
+const realOppositeInteger = (number) => number * -1;
+
+console.log(realOppositeInteger(40));
+console.log(realOppositeInteger(-40));
