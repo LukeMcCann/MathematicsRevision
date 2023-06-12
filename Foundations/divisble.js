@@ -9,6 +9,9 @@
 // We can tell if a number is divisible at a glance following,
 // a few simple rules.
 const divisibleBy = (digit) => {
+	if (digit === 0) throw new Error('Cannot divide by zero!');
+	if (digit === 1) return true;
+
 	if (digit === 2) {
 		return (number) => {
 			const evenDigits = [0, 2, 4, 6, 8];
@@ -75,6 +78,8 @@ const divisibleBy = (digit) => {
 			return parseInt(`${number}`.slice(-1), 10) === 0;
 		}
 	}
+
+	throw new Error('Unable to create function for units greater than 10 or less than 0.')
 };
 
 // If the last digit is 0, 2, 4, 6, 8
