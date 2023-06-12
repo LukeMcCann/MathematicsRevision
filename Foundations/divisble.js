@@ -12,7 +12,7 @@ const divisibleBy = (digit) => {
 	if (digit === 2) {
 		return (number) => {
 			const evenDigits = [0, 2, 4, 6, 8];
-			const lastDigit = `${number}`.slice('-1');
+			const lastDigit = `${number}`.slice(-1);
 			return evenDigits.includes(parseInt(lastDigit, 10));
 		};
 	}
@@ -27,7 +27,7 @@ const divisibleBy = (digit) => {
 
 	if (digit === 4) {
 		return (number) => {
-			return `${number}`.slice('-2').split('').reduce(
+			return `${number}`.slice(-2).split('').reduce(
 				(partialSum, a) => partialSum + a
 			) % 4 === 0;
 		};
@@ -35,7 +35,7 @@ const divisibleBy = (digit) => {
 
 	if (digit === 5) {
 		return (number) => {
-			const lastDigit = `${number}`.slice('-1');
+			const lastDigit = `${number}`.slice(-1);
 			return parseInt(lastDigit, 10) === 5 || parseInt(lastDigit, 10) === 0;
 		}
 	}
@@ -52,7 +52,7 @@ const divisibleBy = (digit) => {
 	if (digit === 7) {
 		return (number) => {
 			const x = [...`${number}`];
-			const lastDigit = x.splice('-1');
+			const lastDigit = x.splice(-1);
 			const restOfNumber = parseInt(x.join(''), 10);
 			return ((lastDigit * 5) + restOfNumber) % 7 === 0;
 		}
@@ -60,7 +60,7 @@ const divisibleBy = (digit) => {
 
 	if (digit === 8) {
 		return (number) => {
-			return parseInt(`${number}`.slice('-3')) % 8 === 0;
+			return parseInt(`${number}`.slice(-3)) % 8 === 0;
 		}
 	}
 
@@ -72,7 +72,7 @@ const divisibleBy = (digit) => {
 
 	if (digit === 10) {
 		return (number) => {
-			return parseInt(`${number}`.slice('-1'), 10) === 0;
+			return parseInt(`${number}`.slice(-1), 10) === 0;
 		}
 	}
 };
