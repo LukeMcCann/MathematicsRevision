@@ -9,7 +9,7 @@
 // We can tell if a number is divisible at a glance following,
 // a few simple rules.
 const divisibleBy = (digit) => {
-	if (digit === 0) throw new Error('Cannot divide by zero!');
+	if (digit === 0) throw new Error('Cannot create function to divide by zero!');
 	if (digit === 1) return true;
 
 	if (digit === 2) {
