@@ -13,6 +13,8 @@ It can be easy to confuse factors and multiples without thinking. Factors are th
 
 There are several ways to classify integers; positive, negatives, 0, etc... additionally there are also prime and composite numbers. A number can either be prime or composite but can never be both.
 
+# Prime Numbers
+
 A prime number is a whole number greater than 1 that has no positive divisors other than 1 and itself. In other words, a prime number is a factor only of itself and 1. We already know every whole number is divisible by 1 as when we divide any whole number by 1 it has no bearing on the result e.g.: 10 / 1 = 1
 
 Defining prime numbers is rather simplistic, however, efficiently working out whether a number is prime in code is a different story.
@@ -50,3 +52,19 @@ const isPrime = (number) => {
 </pre>
 
 We check if the number modulo the divisor is === 0 and if it is return false. This is because if we find an item in our search that is divisible by our number without a remainder then we have found a factor of the number, in that case we know that the number is divisible by more numbers than 1 and itself.
+
+# Composite Numbers
+
+In contrast to prime numbers composite numbers are numbers which are greater than 1 and are divisible by something other than just 1 or and themselves. An example of this would be 6 as it is divisible by 1, 2, and 3.
+
+This means that to determine whether a number is prime or composite we need only determine whether the number is evenly divisible by a number other than 1 and itself. If the number divides evenly into any number evenly (other than 1 and itself) then we determine that the number is composite, otherwise it is prime.
+
+This means, that in order to write a function which determines that a number is composite we can literally just negates `isPrime()`:
+
+<pre>
+<code>
+  !isPrime(number);
+</code>
+</pre>
+
+of course, we could always adapt our isPrime function instead.
