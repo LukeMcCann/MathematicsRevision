@@ -50,3 +50,27 @@ This also applied to multiplication:
 
 (1 . 2 ) . 3 = 1 . (2 . 3) = 6
 (a . b) . c = a . (b . c)
+
+
+## Identity Property
+
+Identity properties are pretty self explanatory. 
+Identity properties are properties which do not
+change the outcome of the expression:
+
+2 + 0 = 2
+a + 0 = a
+
+2 . 1 = 2
+a . 1 = a
+
+
+## Zero Property
+Similar to the identity property, the zero properties are
+properties which always result in 0.
+
+2 . 0 = 0
+a . 0 = 0
+
+0 / 1 = 0
+0 / a = 0
